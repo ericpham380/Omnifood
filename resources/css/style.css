@@ -34,6 +34,14 @@ section {
 	padding: 1px;
 }
 
+.clearfix {zoom: 1}
+.clearfix:after {
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+}
+
 /* ------------------ HEADINGS ------------------ */
 h1, h2, h3 {
 	font-weight: 300;
@@ -232,6 +240,59 @@ header {
 	opacity: 1;
 	transform: scale(1.03);
 }
+
+/* -------------------------------------------- */
+/* HOW IT WORKS */
+/* -------------------------------------------- */
+.section-steps {
+	background-color: #f2f2f2;
+}
+
+.steps-box:first-child {
+	text-align: right;
+	padding-right: 3%;
+	margin-top: 30px;
+}
+
+.steps-box:last-child {
+	padding-left: 3%;
+	margin-top: 70px;
+}
+
+.app-screen {
+	width: 40%;
+}
+
+.works-step {
+	margin-bottom: 50px;
+}
+
+.works-step:last-of-type {
+	margin-bottom: 90px;
+}
+
+.works-step div {
+	color: #bf6516;
+	border: 2px solid #bf6516;
+	display: inline-block;
+	border-radius: 50%;
+	height: 55px;
+	width: 55px;
+	text-align: center;
+	padding: 5px;
+	float: left;
+	font-size: 150%;
+	margin-right: 25px;
+}
+
+.btn-app img {
+	height: 50px;
+	width: auto;
+}
+
+
+
+
 
 
 
