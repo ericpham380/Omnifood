@@ -490,3 +490,85 @@ input[type=checkbox] {
 *:focus {
   outline: none;
 }
+
+/* ---------------------FOOTER -----------------*/
+
+footer {
+  background-color: #2a2929;
+  padding: 50px;
+  font-size: 80%;
+}
+
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+
+.footer-nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social-icons {
+  list-style: none;
+  float: right;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social-icons li a:link,
+.social-icons li a:visited {
+  font-size: 160%;
+}
+
+.footer-nav li:last-child,
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+  transition: color 0.3s;
+}
+
+.ion-social-facebook:hover {
+  color: #3b5998;
+}
+.ion-social-twitter:hover {
+  color: #55acee;
+}
+.ion-social-googleplus:hover {
+  color: #dd4b39;
+}
+.ion-social-instagram:hover {
+  color: #125688;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-icons li a:link,
+.social-icons li a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #7c7c7c;
+  transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+  color: #ddd;
+}
+
+footer p {
+  color: #7c7c7c;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
