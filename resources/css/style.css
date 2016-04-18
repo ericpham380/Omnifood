@@ -12,13 +12,15 @@
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   background-color: #fff;
   color: #555;
   font-family: 'Lato', 'Arial', sans-serif;
   font-size: 20px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 
@@ -312,7 +314,7 @@ header {
 }
 
 .steps-box:last-child {
-  padding-left: 3%;
+  padding-left: 2%;
   margin-top: 70px;
 }
 
@@ -461,6 +463,10 @@ cite img {
   padding: 5px 0;
 }
 
+.plan-box div:nth-child(3) {
+  border-top: 1px solid #ebeaea;
+}
+
 
 /* ---------------------SIGN UP -----------------*/
 
@@ -495,7 +501,7 @@ input[type=checkbox] {
 
 footer {
   background-color: #2a2929;
-  padding: 50px;
+  padding: 30px 50px;
   font-size: 80%;
 }
 
@@ -512,6 +518,7 @@ footer {
 .social-icons {
   list-style: none;
   float: right;
+  margin-top: -10px;
 }
 
 .social-icons li {
