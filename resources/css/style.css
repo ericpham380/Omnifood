@@ -17,7 +17,7 @@ html {
   color: #555;
   font-family: 'Lato', 'Arial', sans-serif;
   font-size: 20px;
-  font-weight: 305;
+  font-weight: 300;
   text-rendering: optimizeLegibility;
 }
 
@@ -44,7 +44,7 @@ section {
 }
 
 .clearfix {
-  zoom: 1
+  zoom: 1;
 }
 
 .clearfix:after {
@@ -140,7 +140,7 @@ a:visited {
   text-decoration: none;
   border-bottom: 1px solid #e67e22;
   padding-bottom: 1px;
-  transition: border-botton 0.2s, color 0.2s;
+  transition: border-bottom 0.2s, color 0.2s;
 }
 
 a:hover,
