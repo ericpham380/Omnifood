@@ -272,6 +272,18 @@ header {
 }
 
 
+/* mobile nav */
+
+.mobile-nav-icon {
+  float: right;
+  font-size: 190%;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 30px;
+  display: none;
+}
+
+
 /* sticky nav */
 
 .sticky {
@@ -637,19 +649,25 @@ footer p {
   margin-top: 20px;
 }
 
+
 /* ---------------------ANIMATION -----------------*/
 
 .js--wp-1,
 .js--wp-2,
 .js--wp-3 {
   opacity: 0;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
 }
 
-.js--wp-1.animate, 
-.js--wp-2.animate, 
-.js--wp-3.animate, 
+.js--wp-4 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+.js--wp-1.animate,
+.js--wp-2.animate,
+.js--wp-3.animate,
 .js--wp-4.animate {
   opacity: 1;
 }
-
-
